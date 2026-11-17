@@ -1,0 +1,7 @@
+requests
+Pillow
+pillow-heif
+openpyxl
+ddgs
+google-genai
+rembg[cpu]

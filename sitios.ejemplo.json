@@ -1,0 +1,36 @@
+{
+  "openrouter_api_key": "",
+  "openrouter_modelo": "openrouter/free",
+  "gemini_api_key": "",
+  "gemini_modelo": "gemini-3.5-flash-lite",
+  "serpapi_key": "",
+  "opciones": {
+    "usar_ia": false,
+    "buscar_fotos": false,
+    "elegir_mejores": true,
+    "licencia": "libre_primero",
+    "modo_fotos": "cliente_e_internet",
+    "max_fotos": 4,
+    "arreglar_fotos": true,
+    "quitar_fondo": true
+  },
+  "sitios": [
+    {
+      "nombre": "Tienda X",
+      "url": "https://tiendax.com",
+      "tipo": "woocommerce",
+      "wp_usuario": "mi-usuario",
+      "wp_app_password": "xxxx xxxx xxxx",
+      "wc_key": "ck_...",
+      "wc_secret": "cs_..."
+    },
+    {
+      "nombre": "Catálogo Y",
+      "url": "https://catalogoy.com",
+      "tipo": "catalogo",
+      "post_type": "al_product",
+      "wp_usuario": "mi-usuario",
+      "wp_app_password": "xxxx xxxx xxxx"
+    }
+  ]
+}

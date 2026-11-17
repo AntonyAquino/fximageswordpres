@@ -1,0 +1,21 @@
+# === Datos y claves de la persona que usa el programa: NUNCA se suben ===
+sitios.json
+.env
+*.env
+
+# === Entorno y archivos generados ===
+.venv/
+__pycache__/
+*.pyc
+registro.log
+convertidas/
+internet/
+paquete/
+
+# Paquetes de productos y plugin empaquetado (el plugin se genera con empaquetar_plugin.py)
+*.zip
+
+# Archivos temporales de Excel y copias de resultados
+~$*
+*_resultado.xlsx
+/productos.xlsx
